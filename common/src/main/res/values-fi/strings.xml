@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="info_label_sensor_id">Sensori</string>
+    <string name="info_label_value">Arvo</string>
+    <string name="info_label_raw">Raaka</string>
+    <string name="info_label_delta">Muutos</string>
+    <string name="info_label_rate">Muutosnopeus</string>
+    <string name="info_label_timestamp">Aikaleima</string>
+    <string name="info_label_iob_cob_timestamp">IOB/COB aika</string>
+    <string name="info_label_timediff">Aikaero</string>
+    <string name="info_label_alarm">Hälytys</string>
+    <string name="info_label_source">Lähde</string>
+    <string name="info_label_per_minute">minuutissa</string>
+    <string name="no_data">Ei tietoja vielä!\nMääritä lähde ensin.</string>
+
+    <string name="elapsed_time">%1$d min</string>
+    <string name="elapsed_time_hour">\> 1h</string>
+
+    <string name="rate_double_up">nousee hyvin nopeasti</string>
+    <string name="rate_single_up">nousee nopeasti</string>
+    <string name="rate_forty_five_up">nousee</string>
+    <string name="rate_flat">tasainen</string>
+    <string name="rate_forty_five_down">laskee</string>
+    <string name="rate_single_down">laskee nopeasti</string>
+    <string name="rate_double_down">laskee hyvin nopeasti</string>
+
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Peruuta</string>
+
+    <string name="alarm_none">-</string>
+    <string name="alarm_very_low">erittäin matala</string>
+    <string name="alarm_low">matala</string>
+    <string name="alarm_high">korkea</string>
+    <string name="alarm_very_high">erittäin korkea</string>
+    <string name="very_low">Erittäin matala</string>
+    <string name="low">Matala</string>
+    <string name="high">Korkea</string>
+    <string name="very_high">Erittäin korkea</string>
+
+    <!-- mobile -->
+
+    <string name="activity_main_battery_optimization_disabled">Akun optimointi on käytössä.</string>
+    <string name="activity_main_no_source_label">Lähde: ei aktiivinen</string>
+    <string name="activity_main_connected_label">Kello: yhdistetty (%1$s)</string>
+    <string name="activity_main_disconnected_label">Kello: ei yhteyttä</string>
+    <string name="activity_main_car_connected_label">Android Auto: yhdistetty</string>
+    <string name="activity_main_car_disconnected_label">Android Auto: ei yhteyttä</string>
+    <string name="activity_main_high_contrast_enabled">Korkea kontrasti käytössä!\nPaina tästä siirtyäksesi asetuksiin.</string>
+    <string name="no_new_value">Ei uutta arvoa %1$d minuuttiin!</string>
+
+    <string name="menu_settings">Asetukset</string>
+    <string name="menu_sources">Lähteet</string>
+    <string name="menu_group_github">GitHub</string>
+    <string name="menu_update">Päivitykset</string>
+    <string name="menu_support">Tuki</string>
+    <string name="menu_help">Apua</string>
+
+    <!-- tasker -->
+
+    <string name="tasker_event_glucodata">Uusi glukoosiarvo</string>
+    <string name="tasker_event_glucodata_obsolete">Vanhentunut arvo</string>
+    <string name="tasker_event_glucodata_alarm">Glukoosihälytys</string>
+    <string name="tasker_wear_connection_state">Kellon yhteys</string>
+    <string name="tasker_android_auto_connection_state">Android Auto -yhteys</string>
+    <string name="tasker_target_range_state">Glukoosialueen muutos</string>
+
+    <!-- sources -->
+    <string name="source_phone">Puhelin</string>
+    <string name="source_wear">Kello</string>
+
+    <string name="source_state_not_active">Ei aktiivinen</string>
+    <string name="source_state_in_progress">Käynnissä</string>
+    <string name="source_state_ok">OK</string>
+    <string name="source_state_no_new_value">Ei uutta arvoa</string>
+    <string name="source_state_no_connection">Ei internet-yhteyttä</string>
+    <string name="source_state_error">Virhe</string>
+
+    <string name="source_interval">Intervalli</string>
+    <string name="source_interval_summary">Tietojen päivitysväli lähteestä.</string>
+    <string name="source_delay">Viive</string>
+    <string name="source_delay_summary">Viive sekunteina ennen tietojen pyytämistä pilvestä, jotta tiedot ehtivät päivittyä  sinne.</string>
+
+    <string name="src_cat_libreview">LibreLinkUp</string>
+    <string name="src_enabled">Ota käyttöön</string>
+    <string name="src_libre_enabled_summary">Ota käyttöön LibreLinkUp-seuranta, jos käyttäjätunnus ja salasana on asetettu.</string>
+    <string name="src_libre_user">Sähköposti</string>
+    <string name="src_libre_user_summary">Sähköposti LibreLinkUp-kirjautumista varten</string>
+    <string name="src_password">Salasana</string>
+    <string name="src_libre_password_summary">Salasana LibreLinkUpia varten</string>
+    <string name="src_libre_reconnect">Yhdistä uudelleen</string>
+    <string name="src_libre_reconnect_summary">Seuraavalla intervallilla tehdään uusi kirjautuminen.</string>
+
+    <string name="src_cat_nightscout">Nightscout</string>
+    <string name="src_ns_enabled">Ota käyttöön</string>
+    <string name="src_ns_enabled_summary">Ota käyttöön Nightscout-seuranta.</string>
+    <string name="src_ns_url">Nightscout URL</string>
+    <string name="src_ns_url_summary">Nightscout-palvelimen URL-osoite.</string>
+    <string name="src_ns_secret">API Secret</string>
+    <string name="src_ns_secret_summary">API Secret tietojen saamiseksi (valinnainen).</string>
+    <string name="src_ns_token">Access Token</string>
+    <string name="src_ns_token_summary">Lisää access token, jos tarvitset sitä (valinnainen).</string>
+
+    <string name="source_request_interval_always">Aina</string>
+    <string name="source_request_interval_1">1 minuutti</string>
+    <string name="source_request_interval_5">5 minuuttia</string>
+    <string name="source_request_interval_10">10 minuuttia</string>
+    <string name="source_request_interval_15">15 minuuttia</string>
+    <string name="source_request_interval_20">20 minuuttia</string>
+    <string name="source_request_interval_30">30 minuuttia</string>
+    <string name="source_request_interval_alarm">Vain hälytys</string>
+
+
+    <!-- LibreLink source -->
+    <string name="state_disabled">pois käytöstä</string>
+    <string name="state_not_connected">ei yhdistetty</string>
+    <string name="state_connected">yhdistetty</string>
+    <string name="state_error">virhe: %s</string>
+
+
+    <!-- settings -->
+
+    <string name="pref_cat_general">Yleiset</string>
+    <string name="pref_cat_notification">Ilmoitukset</string>
+    <string name="pref_cat_widgets">Widgetit</string>
+    <string name="pref_cat_android_auto">Android Auto</string>
+    <string name="pref_cat_forward_broadcast">Lähetä glukoosiarvot</string>
+    <string name="pref_target_range">Tavoitealue</string>
+    <string name="pref_cat_colors">Värit</string>
+
+    <string name="pref_switch_notification">Testiarvot</string>
+    <string name="pref_very_high_value">Erittäin korkea glukoosi</string>
+    <string name="pref_very_high_value_summary">Raja erittäin korkeille glukoosiarvoille.</string>
+    <string name="pref_high_value">Korkea glukoosi</string>
+    <string name="pref_high_value_summary">Raja korkeille glukoosiarvoille.</string>
+    <string name="pref_target_max_value">Tavoitealueen yläraja</string>
+    <string name="pref_target_max_value_summary">Tavoitealueen ylin arvo.</string>
+    <string name="pref_target_min_value">Tavoitealueen alaraja</string>
+    <string name="pref_target_min_value_summary">Tavoitealueen alin arvo.</string>
+    <string name="pref_very_low_value">Erittäin matala glukoosi</string>
+    <string name="pref_very_low_value_summary">Raja erittäin matalille glukoosiarvoille.</string>
+    <string name="pref_low_value">Matala glukoosi</string>
+    <string name="pref_low_value_summary">Raja matalille glukoosiarvoille.</string>
+    <string name="pref_switch_car_notification">Android Auto -ilmoitukset</string>
+    <string name="pref_switch_car_notification_summary">Ilmoitukset Android Autoon.</string>
+    <string name="pref_car_notification_interval">Ilmoitusväli</string>
+    <string name="pref_car_notification_interval_summary">Vähimmäisväli uusien arvojen ilmoituksille.\nHälytykset näytetään aina.</string>
+    <string name="pref_switch_car_notification_alarm_only">Vain hälytykset</string>
+    <string name="pref_switch_car_notification_alarm_only_summary">Laukaisee ilmoitukset vain hälytyksille niiden omalla aikavälillä.\nErittäin matalat arvot näytetään aina.</string>
+    <string name="pref_switch_car_media">Vale-mediasoitin</string>
+    <string name="pref_switch_car_media_summary">Näytä glukoosiarvo nykyisenä kappaleena Android Autossa.</string>
+    <string name="pref_switch_send_to_aod">Lähetä glucodata-broadcast</string>
+    <string name="pref_switch_send_to_aod_summary">Lähetä glucodata-broadcast uusille arvoille kaikista lähteistä.</string>
+    <string name="pref_button_select_target">Valitse glucodata-vastaanottajat</string>
+    <string name="pref_button_select_target_summary">Valitse vastaanottajat glucodata-broadcastille. Globaali lähetys menee kaikille sovelluksille, jotka rekisteröityvät kuuntelemaan.</string>
+    <string name="pref_switch_send_to_xdrip">Lähetä patched libre -broadcast</string>
+    <string name="pref_switch_send_to_xdrip_summary">Välitä glukoosiarvot xDrip+:lle. Valitse \'Libre (patched app)\' lähteeksi xDrip+:ssa.</string>
+    <string name="pref_button_select_xdrip_target">Valitse patched libre -vastaanottajat</string>
+    <string name="pref_button_select_xdrip_target_summary">Valitse vastaanottajat patched libre -broadcastille.</string>
+    <string name="pref_switch_send_xdrip_broadcast">Lähetä xDrip+ broadcast</string>
+    <string name="pref_switch_send_xdrip_broadcast_summary">Lähetä broadcast kuten xDrip+ tekee. Esimerkiksi AAPS:lle.</string>
+    <string name="pref_button_select_xdrip_broadcast_target">Valitse xDrip+ broadcast -vastaanottajat</string>
+    <string name="pref_button_select_xdrip_broadcast_target_summary">Valitse vastaanottajat xDrip+ broadcastille.</string>
+    <string name="pref_switch_use_mmol">Käytä mmol/l</string>
+    <string name="pref_switch_use_mmol_summary">Käytä mmol/l mg/dl sijaan.</string>
+    <string name="pref_switch_use_5_min_delta">5 minuutin muutos</string>
+    <string name="pref_switch_use_5_min_delta_summary">Käytä 5 minuutin väliä muutoksen laskemiseen, muuten käytetään 1 minuutin väliä.</string>
+    <string name="pref_color_alarm">Erittäin korkea/matala väri</string>
+    <string name="pref_color_alarm_summary">Väri erittäin korkeille ja matalille arvoille.</string>
+    <string name="pref_color_out_of_range">Korkea/matala väri</string>
+    <string name="pref_color_out_of_range_summary">Väri korkeille ja matalille arvoille.</string>
+    <string name="pref_color_ok">Tavoiteväri</string>
+    <string name="pref_color_ok_summary">Väri tavoitealueen arvoille.</string>
+    <string name="pref_notification">Ilmoitus</string>
+    <string name="pref_notification_summary">Näyttää pysyvän ilmoituksen, jossa on nykyinen suuntanuoli, glukoosi ja muutos tilapalkissa.\nTämä estää Androidia sulkemasta sovellusta.</string>
+    <string name="pref_notification_icon">Tilapalkin kuvake</string>
+    <string name="pref_notification_icon_summary">Pienen tilapalkin kuvakkeen tyyli.</string>
+    <string name="pref_notification_big_icon">Suuri tilapalkin kuvake</string>
+    <string name="pref_notification_big_icon_summary">Suurempi kuvake tilapalkissa. Ota pois käytöstä, jos kuvake on liian iso.</string>
+    <string name="pref_notification_no_content">Piilota sisältö</string>
+    <string name="pref_notification_no_content_summary">Poistaa ilmoituksen sisällön, jolloin näkyy vain pieni ilmoitus kuvakkeella.</string>
+    <string name="pref_second_notification">2. ilmoitus</string>
+    <string name="pref_second_notification_summary">Näytä ilmoitus ilman sisältöä saadaksesi lisäkuvakkeen tilapalkkiin.</string>
+    <string name="pref_second_notification_icon">2. tilapalkin kuvake</string>
+    <string name="pref_second_notification_icon_summary">Pienen tilapalkin kuvakkeen tyyli.</string>
+    <string name="pref_third_notification">3. ilmoitus</string>
+    <string name="pref_third_notification_icon">3. tilapalkin kuvake</string>
+    <string name="pref_floating_widget">Kelluva widget</string>
+    <string name="pref_floating_widget_summary">Näytä glukoosi, suunta, muutos, aika ja IOB/COB kelluvana widgettinä.\nJos pidät painettuna etkä liikuta widgettiä yli 5 sekuntiin, se katoaa.</string>
+    <string name="pref_floating_widget_size">Koko</string>
+    <string name="pref_floating_widget_size_summary">Muuta kelluvan widgetin kokoa</string>
+    <string name="pref_floating_widget_style">Tyyli</string>
+    <string name="pref_floating_widget_style_summary">Kelluvan widgetin tyyli.</string>
+    <string name="pref_floating_widget_transparency">Läpinäkyvyys</string>
+    <string name="pref_floating_widget_transparency_summary">Kelluvan widgetin taustan läpinäkyvyys.</string>
+    <string name="pref_widget_transparency">Widgetin läpinäkyvyys</string>
+    <string name="pref_widget_transparency_summary">Widgetien taustan läpinäkyvyys.</string>
+    <string name="pref_relative_time">Suhteellinen aika</string>
+    <string name="pref_relative_time_summary">Käytä suhteellista aikaa glukoosin aikaleiman sijaan widgeteissä.\nSuhteellinen aika riippuu laitteen akkuasetuksista eikä välttämättä toimi oikein.</string>
+
+    <string name="pref_status_bar_icon_app">Sovelluskuvake</string>
+    <string name="pref_status_bar_icon_glucose">Glukoosiarvo</string>
+    <string name="pref_status_bar_icon_trend">Suuntanuoli</string>
+    <string name="pref_status_bar_icon_delta">Muutos</string>
+
+    <string name="pref_wear_notification">Kello: värinä</string>
+
+    <string name="pref_global_broadcast">Globaali lähetys</string>
+
+    <string name="select_receiver_show_all">Näytä kaikki</string>
+    <string name="select_receiver_no_glucodata_receiver">Vastaanottajaa ei löytynyt!</string>
+
+    <string name="widget_glucose">Glukoosi</string>
+    <string name="widget_glucose_trend">Glukoosi ja suunta</string>
+    <string name="widget_glucose_trend_delta">Glukoosi, suunta ja muutos</string>
+    <string name="widget_glucose_trend_delta_timestamp">Glukoosi, suunta, muutos ja aikaleima</string>
+    <string name="widget_glucose_trend_delta_timestamp_iob_cob">Glukoosi, suunta, muutos, aika ja IOB/COB</string>
+
+    <string name="pref_send_to_bangleJS">BangleJS tuki</string>
+    <string name="pref_send_to_bangleJS_summary">Välitä arvot widbgjs-widgetille BangleJS:ään.</string>
+
+    <!-- wear -->
+
+    <string name="forground_notification_descr">Vastaanotetaan tietoja komplikaatioita varten</string>
+
+    <string name="activity_connected_label">Puhelin: yhdistetty (%1$s)</string>
+    <string name="activity_disconnected_label">Puhelin: ei yhteyttä</string>
+
+    <string name="activity_switch_foreground">Etuala</string>
+    <string name="activity_large_arrow_icon">Iso suuntanuoli</string>
+    <string name="activity_switch_colored_aod">Värillinen AOD</string>
+
+    <!-- complications -->
+
+    <string name="short_value">Glukoosi</string>
+    <string name="image_value">Glukoosi (hyvin iso ja värillinen)</string>
+    <string name="small_image_value">Glukoosi (värillinen)</string>
+    <string name="icon_value">Glukoosi (iso)</string>
+    <string name="short_value_icon">Glukoosi kuvakkeella</string>
+    <string name="short_value_arrow">Glukoosi ja suunta</string>
+    <string name="short_value_arrow_image">Glukoosi ja suunta (iso ja värillinen)</string>
+    <string name="icon_value_arrow">Glukoosi ja suunta (iso)</string>
+    <string name="short_value_arrow_small_image">Glukoosi ja suunta (värillinen)</string>
+    <string name="short_value_trend_range">Glukoosi ja suunta-alue (jos tuettu)</string>
+    <string name="short_value_delta_trend_range">Glukoosi, muutos ja suunta-alue (jos tuettu)</string>
+    <string name="short_delta_trend_arrow_range">Muutos, suuntanuoli ja suunta-alue (jos tuettu)</string>
+    <string name="short_value_delta">Glukoosi ja muutos</string>
+    <string name="long_value_arrow_delta">Glukoosi, muutos ja suunta</string>
+    <string name="long_value_arrow_delta_time">Glukoosi, muutos, suunta ja aikaleima</string>
+    <string name="long_value_arrow_icon_delta_time">Glukoosi, suuntakuvake, muutos ja aikaleima</string>
+    <string name="short_value_rate">Glukoosi ja suunta-arvo</string>
+    <string name="icon_delta">Muutos (iso)</string>
+    <string name="image_delta">Muutos (iso, värillinen)</string>
+    <string name="short_delta">Muutos</string>
+    <string name="short_delta_arrow">Muutos ja suunta</string>
+    <string name="short_delta_icon">Muutos kuvakkeella</string>
+    <string name="short_delta_time">Muutos ja aikaleima</string>
+    <string name="image_delta_time">Muutos ja aikaleima (värillinen)</string>
+    <string name="icon_delta_time">Muutos ja aikaleima (iso)</string>
+    <string name="image_arrow">Suunta (iso, värillinen)</string>
+    <string name="small_image_arrow">Suunta (värillinen)</string>
+    <string name="icon_arrow">Suuntakuvake</string>
+    <string name="short_rate">Suunta-arvo</string>
+    <string name="short_rate_arrow">Suunta-arvo ja nuoli</string>
+    <string name="short_rate_icon">Suunta-arvo kuvakkeella</string>
+    <string name="timestamp">Glukoosin aikaleima</string>
+    <string name="short_timestamp">Aikaleima</string>
+    <string name="image_timestamp">Aikaleima (värillinen)</string>
+    <string name="icon_timestamp">Aikaleima (iso)</string>
+    <string name="battery_level">Akun taso (kello ja puhelin)</string>
+    <string name="watch_battery_level">Kellon akun taso</string>
+    <string name="phone_battery_level">Puhelimen akun taso</string>
+    <string name="iob_cob">IOB/COB</string>
+
+    <!-- GlucoDataAuto -->
+
+    <string name="gda_no_data">Tämän sovelluksen käyttämiseksi Android Autossa sinun täytyy aktivoida kehittäjäasetukset Android Autossa painamalla useita kertoja versionumeroa. Sitten sinun täytyy sallia \"Tuntemattomat lähteet\" kehittäjäasetuksista.</string>
+    <string name="pref_information">Tiedot</string>
+    <string name="pref_gda_info_summary">Jos käytät GlucoDataHandleria lähteenä, nämä asetukset ylikirjoitetaan sieltä, joten sinun ei tarvitse muuttaa niitä tässä.</string>
+    <string name="pref_no_gda_info">GlucoDataAuto puuttuu</string>
+    <string name="pref_no_gda_info_summary">Käyttääksesi GlucoDataHandleria Android Autossa, sinun täytyy asentaa GlucoDataAuto GitHubista.\nPaina tästä saadaksesi lisätietoja ja ladataksesi GlucoDataAuton.</string>
+    <string name="pref_send_to_glucodataauto">Välitä GlucoDataAutoon</string>
+    <string name="pref_send_to_glucodataauto_summary">Lähetä glukoosiarvot ja asetukset GlucoDataAutoon, jos puhelin on yhdistetty Android Autoon.</string>
+
+    <!-- Notifications -->
+
+    <string name="mobile_foreground_notification_name">Etualan ilmoitus</string>
+    <string name="mobile_foreground_notification_descr">Etualan ilmoitus, joka estää sovelluksen pysähtymisen taustalla.</string>
+    <string name="mobile_second_notification_name">Toinen ilmoitus</string>
+    <string name="mobile_third_notification_name">Kolmas ilmoitus</string>
+    <string name="mobile_second_notification_descr">Lisäilmoitus lisäkuvakkeen näyttämiseksi tilapalkissa.</string>
+    <string name="worker_notification_name">Taustatyöilmoitus</string>
+    <string name="worker_notification_descr">Ilmoitus, joka näkyy taustatehtävien suorituksen aikana.</string>
+    <string name="wear_foreground_notification_name">Etualan ilmoitus</string>
+    <string name="wear_foreground_notification_descr">Etualan ilmoitus, joka estää sovelluksen pysähtymisen taustalla.</string>
+    <string name="android_auto_notification_name">Android Auto -ilmoitus</string>
+    <string name="android_auto_notification_descr">Ilmoitus, joka näytetään Android Autossa</string>
+
+    <string name="pref_cat_follower">Pilvipalvelut</string>
+    <string name="pref_source_juggluco_info">Juggluco</string>
+    <string name="pref_source_xdrip_info">xDrip+</string>
+    <string name="pref_source_librelinkup_info">Määritä LibreLinkUp</string>
+    <string name="pref_source_librelinkup_info_summary">TÄRKEÄÄ: tämä ei ole FreeStyle Libre -sovelluksen tili!\nOttaaksesi LibreLinkUp-seurannan käyttöön:\n- avaa FreeStyle Libre -sovellus ja valitse valikosta Jakaminen tai Yhdistetyt sovellukset\n- aktivoi LibreLinkUp-yhteys\n- asenna LibreLinkUp Play Kaupasta\n- luo tili ja odota kutsua</string>
+    <string name="menu_contact">Ota yhteyttä</string>
+    <string name="src_ns_iob_cob">IOB/COB tuki</string>
+    <string name="src_ns_iob_cob_summary">Vastaanota myös IOB- ja COB-arvot Nightscoutin pebble-päätepisteestä.</string>
+    <string name="pref_permanent_notification_info_summary">Ilmoitus on pakollinen sovelluksen toiminnan kannalta.\nAndroid 13:sta alkaen voit pyyhkäistä tämän ilmoituksen pois. Jos et halua ilmoitusta takaisin, aseta \"Tilapalkin kuvake\" -> \"Sovelluskuvake\" ja ota käyttöön \"Piilota sisältö\".</string>
+
+    <string name="source_aaps">AAPS</string>
+    <string name="pref_source_aaps_info">AndroidAPS</string>
+    <string name="pref_source_aaps_info_summary">Vastaanottaaksesi arvoja AAPS:sta:\n- avaa AAPS-sovellus\n- mene \"Config Builder\" (Asetusten rakentaja)\n- ota käyttöön \"Samsung Tizen\" tai \"Data Broadcaster\"</string>
+
+    <string name="pref_switch_watchdrip_enabled">WatchDrip+</string>
+    <string name="pref_switch_watchdrip_enabled_summary">Ota käyttöön WatchDrip+-yhteys.\nTÄRKEÄÄ: ota käyttöön \"Enable service\" WatchDrip+:ssa kun olet ottanut tämän asetuksen käyttöön!</string>
+
+    <string name="menu_save_logs">Tallenna lokit</string>
+    <string name="logcat_save_succeeded">Lokit tallennettu onnistuneesti</string>
+    <string name="logcat_save_failed">Lokien tallennus epäonnistui!</string>
+
+    <string name="request_exact_alarm_title">Hälytykset ja muistutukset -lupa</string>
+
+    <string name="menu_alarms">Hälytykset</string>
+    <string name="alarm_interval">Intervalli</string>
+    <string name="alarm_enabled">Käytössä</string>
+    <string name="alarm_test">Testaa</string>
+    <string name="alarm_settings">Asetukset</string>
+    <string name="alarm_save_sound">Tallenna ääni</string>
+    <string name="alarm_saved">Hälytys tallennettu!</string>
+    <string name="snooze">Torkku</string>
+    <string name="alarm_cat_all">Kaikki hälytykset</string>
+    <string name="alarm_notifications_enabled">Hälytysilmoitukset</string>
+    <string name="alarm_notifications_enabled_summary_on">Hälytysilmoitukset ovat käytössä puhelimessa.</string>
+    <string name="alarm_notifications_enabled_summary_off">Hälytysilmoitukset ovat pois käytöstä puhelimessa.</string>
+    <string name="stop_snooze">Pysäytä</string>
+
+    <string name="very_low_alarm_text">Erittäin matala!</string>
+    <string name="very_low_text">Matala!</string>
+    <string name="very_high_text">Korkea!</string>
+    <string name="very_high_alarm_text">Erittäin korkea!</string>
+
+    <string name="btn_dismiss">Hylkää</string>
+    <string name="test_alarm">Testihälytys!</string>
+
+    <string name="advanced_settings">Lisäasetukset</string>
+    <string name="alarm_retrigger">Uudelleenlaukaisu</string>
+    <string name="alarm_obsolete">Vanhentunut</string>
+    <string name="obsolete_alarm_text">Ei uutta arvoa!</string>
+
+    <string name="app_crash_title">Kaatuminen havaittu!</string>
+    <string name="app_crash_message">Olen pahoillani, että sovellus kaatui!\nLähetä lokit minulle, jotta voin analysoida virheen ja korjata sen mahdollisimman pian.\nKiitos!</string>
+
+    <string name="pref_source_offline">Paikalliset sovellukset</string>
+    <string name="pref_source_offline_summary">Sovellukset samassa laitteessa, jotka tarjoavat glukoosiarvoja sisäisenä broadcast-viestinä, kuten Juggluco, xDrip+, AAPS jne.</string>
+
+    <string name="new_version">Versio %s on saatavilla</string>
+    <string name="info_label_notes">Muistiinpanot</string>
+
+    <string name="reset_db">Tyhjennä tietokanta</string>
+    <string name="reset_db_summary">Tyhjennä kaikki tiedot tietokannasta.</string>
+    <string name="reset_db_warning">Jos painat OK, kaikki tiedot poistetaan tietokannasta!\nOletko varma?</string>
+
+    <string name="pref_wear_os_reset_connection">Nollaa yhteys</string>
+    <string name="pref_wear_os_reset_connection_summary">Paina tästä nollataksesi kellon ja puhelimen välisen yhteyden, jos se ei toimi odotetulla tavalla.\nJos nollaus ei auta, käynnistä kello uudelleen.</string>
+    <string name="detail_reset_connection">Yhteys ei toimi odotetulla tavalla! Ole hyvä ja käynnistä kello uudelleen.</string>
+
+    <string name="pref_cat_export_import">Vienti / Tuonti</string>
+    <string name="pref_cat_export_import_summary">Vie tai tuo asetukset.</string>
+    <string name="pref_export_settings">Vie</string>
+    <string name="pref_export_settings_summary">Paina tästä viedäksesi kaikki asetukset tiedostoon.\nTÄRKEÄÄ: tämä vie vain muutetut asetukset! Oletusarvoiset asetukset eivät sisälly vientiin.</string>
+    <string name="pref_import_settings">Tuo</string>
+    <string name="pref_import_settings_summary">Paina tästä tuodaksesi asetukset tiedostosta.\nTÄRKEÄÄ: tämä ei palauta oletusasetuksia, koska ne eivät sisälly vientiin.\nJos haluat palauttaa oletukset, tyhjennä sovelluksen tiedot ensin ja tuo asetukset vasta sitten.</string>
+
+    <string name="alarm_rising_fast">Nousee nopeasti</string>
+    <string name="rising_fast_alarm_text">Nousee nopeasti!</string>
+    <string name="alarm_falling_fast">Laskee nopeasti</string>
+    <string name="falling_fast_alarm_text">Laskee nopeasti!</string>
+
+    <string name="enabled">käytössä</string>
+    <string name="disabled">pois käytöstä</string>
+
+    <!-- v2.1 -->
+    <string name="pref_notification_recreate">Luo ilmoitukset uudelleen</string>
+    <string name="pref_notification_recreate_summary">Poista ja luo uudelleen toinen ja kolmas ilmoitus.\nTämä vaaditaan vain erikoisille AOD-näytöille, jotka eivät päivitä ilmoitusten kuvakkeita.\nEtualan ilmoituksen kuvaketta ei voi luoda uudelleen.</string>
+
+    <string name="src_cat_medtrum">Medtrum</string>
+    <string name="src_medtrum_enabled_summary">Ota käyttöön Medtrum-yhteys asetettuasi käyttäjätunnuksen ja salasanan.</string>
+    <string name="src_medtrum_user">Käyttäjä</string>
+    <string name="src_medtrum_user_summary">Medtrum-käyttäjätunnus seuraaja-tilille.</string>
+    <string name="source_medtrum">Medtrum</string>
+
+    <string name="table_header_statistics">Tilastot</string>
+    <string name="info_label_average">Keskiarv.</string>
+    <string name="time_in_range">TIR</string>
+
+    <string name="pref_battery_complication_percent">Näytä % akun komplikaatiossa</string>
+
+    <string name="health_connect_permission_rationale_title">Health Connect -integraatio</string>
+    <string name="health_connect_permission_rationale_long">
+Auttaakseen sinua diabeteksen hallinnassa, GlucoDataHandler voi jakaa verensokeritietosi Health Connectin kanssa.\n\n
+Tämä mahdollistaa:\n
+  - Tallentaa glukoosiarvosi turvallisesti yhteen paikkaan laitteellasi.\n
+  - Jakaa glukoositiedot muiden valtuuttamiesi terveys- ja kuntosovellusten kanssa.\n\n
+GlucoDataHandler vain kirjoittaa verensokeritietoja Health Connectiin eikä lue muita terveystietoja, ellet anna niihin erillistä lupaa.\n\n
+Voit hallita näitä lupia milloin tahansa Health Connect -sovelluksen asetuksissa.
+</string>
+    <string name="pref_healthconnect">Health Connect</string>
+    <string name="pref_healthconnect_summary">Jaa tietosi Health Connectin kanssa antamalla lupa GDH:lle.</string>
+    <string name="pref_samsunghealth_summary">Synkronoidaksesi Samsung Healthin kanssa, sinun täytyy myös sallia "lue Health Connectista" Samsung Health -sovelluksessa.\nHuomioi, että esimerkiksi Samsung Health ei lue näitä arvoja säännöllisesti!</string>
+    <string name="health_connect_not_available">Ei saatavilla!</string>
+    <string name="health_connect_no_permission">Lupa puuttuu!</string>
+
+    <string name="pref_cat_logs">Lokit</string>
+    <string name="pref_cat_logs_summary">Määritä lokitus ja tallenna lokit tiedostoon.</string>
+    <string name="pref_cat_log_to_db">Lokita tietokantaan</string>
+    <string name="pref_log_to_db_summary">Varoitus: Lokien tallentaminen tietokantaan voi vaikuttaa suorituskykyyn ja akun kestoon.\nOta tämä käyttöön vain kehittäjän pyynnöstä ongelman selvittämiseksi.</string>
+    <string name="pref_log_debug">Ota käyttöön debug-lokitus</string>
+
+    <string name="pref_switch_xdrip_server">Paikallinen verkkopalvelin</string>
+    <string name="pref_switch_xdrip_server_summary">Sallii xDrip+:lle suunniteltujen kellotaulujen vastaanottaa glukoositietoja tästä sovelluksesta. Emuloi xDrip+ verkkopalvelinta portissa 17580.</string>
+    <string name="pref_switch_xdrip_server_reduce_data">Yksinkertaistettu datatila</string>
+    <string name="pref_switch_xdrip_server_reduce_data_summary">Tämä vähentää tarjotun datan minimiin, jotta vältytään muistiongelmilta joissakin Garmin-kelloissa.\nTarkista yhteensopivuus kellotaulusi kanssa.</string>
+    <string name="error_port_in_use">Portti on käytössä!\nPysäytä toinen verkkopalvelin tässä portissa ja käynnistä paikallinen verkkopalvelin uudelleen.</string>
+
+    <string name="pref_source_notification">Ilmoitusten lukija (Beta)</string>
+    <string name="pref_source_notification_summary">Vastaanota glukoosiarvo ja IOB/COB muiden sovellusten ilmoituksista (kuten Dexcom, CamAPS FX ja Omnipod 5).</string>
+    <string name="notification_reader_app">Sovellus</string>
+    <string name="notification_reader_enabled">Ota ilmoitusten lukija käyttöön</string>
+    <string name="pref_source_notification_info_summary">Arvojen vastaanottaminen muiden sovellusten ilmoituksista vaatii luvan ilmoitusten käyttöön!\nIlmoituksen tulee sisältää joko glukoosiarvo tai IOB/COB tekstinä.\nKoska jokaisella ilmoituksella on eri asettelu, se ei välttämättä toimi kaikkien sovellusten kanssa. Ongelmatilanteissa ota yhteyttä kehittäjään ja lähetä kuvakaappaus ilmoituksesta sekä lokit.</string>
+
+    <string name="gdh_disclaimer_title">Kehittäjän huomautus</string>
+    <string name="gdh_disclaimer_message">Tämä sovellus on kehitetty vapaa-ajallani harrasteprojektina. Siksi en voi taata, että kaikki ominaisuudet toimivat moitteettomasti jokaisessa laitteessa. Työskentelen kuitenkin jatkuvasti parannusten parissa.\nJos kohtaat ongelmia tai sinulla on kysyttävää, ota yhteyttä suoraan minuun ennen negatiivisen arvostelun jättämistä.\nPysyäksesi ajan tasalla tärkeistä päivityksistä ja korjauksista, olet tervetullut liittymään Facebook-ryhmään tai Google Groupsiin.</string>
+
+</resources>

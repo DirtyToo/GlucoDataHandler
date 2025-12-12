@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="glucose_label">Glukoosi</string>
+    <string name="glucose_html_label">Glukoosiarvo</string>
+    <string name="sensor_id_label">Sensorin ID</string>
+    <string name="sensor_id_html_label">Nykyisen aktiivisen sensorin ID</string>
+    <string name="raw_value_label">Raaka-arvo</string>
+    <string name="raw_value_html_label">Glukoosiarvo yksikössä mg/dl</string>
+    <string name="rate_label">Muutosnopeus</string>
+    <string name="rate_html_label">Glukoosin muutosnopeus</string>
+    <string name="rate_label_label">Suunnan selite</string>
+    <string name="rate_label_html_label">Selite nykyiselle muutokselle</string>
+    <string name="dexcom_label">DexcomSelite</string>
+    <string name="dexcom_html_label">Suunnan selite Dexcomille</string>
+    <string name="alarm_label">Hälytys</string>
+    <string name="alarm_html_label">Hälytysarvo (0: ei hälytystä, 6/14: erittäin korkea, 2/10: korkea, 3/11: matala, 7/15: erittäin matala)</string>
+    <string name="time_label">Aika</string>
+    <string name="time_html_label">Aika millisekunneissa</string>
+    <string name="time_diff_label">Aikaero</string>
+    <string name="time_diff_html_label">Aikaero tämän ja edellisen arvon välillä millisekunneissa</string>
+    <string name="arrow_label">Nuoli</string>
+    <string name="arrow_html_label">Suuntanuoli Unicode-merkkinä</string>
+    <string name="delta_label">Muutos</string>
+    <string name="delta_html_label">Muutos nykyisen ja edellisen glukoosiarvon välillä (minuutissa)</string>
+    <string name="unit_label">Yksikkö</string>
+    <string name="unit_html_label">Glukoosiarvon yksikkö (mg/dl tai mmol/l)</string>
+    <string name="obsolete_time_label">Aika edellisestä arvosta</string>
+    <string name="obsolete_time_html_label">Aika minuutteina siitä kun edellinen arvo vastaanotettiin.</string>
+    <string name="iob_label">IOB</string>
+    <string name="iob_html_label">Insuliinia kehossa (Insulin On Board)</string>
+    <string name="cob_label">COB</string>
+    <string name="cob_html_label">Hiilihydraatteja imeytymättä (Carbs On Board)</string>
+</resources>
